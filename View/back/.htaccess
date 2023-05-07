@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^([A-Za-z]+)$ index.php?action=CategoryPostController&act=$1
+RewriteRule ^quan-ly-danh-muc-bai-viet$ index.php?action=CategoryPostController&act=CategoryPost

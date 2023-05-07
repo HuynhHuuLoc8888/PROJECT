@@ -1,0 +1,39 @@
+
+  /*!menu */
+  * {
+    box-sizing: border-box;
+  }
+
+  [class^="fa-"],
+  [class*=" fa-"],
+  [class^="fa-"]:before,
+  [class*=" fa-"]:before,
+  [class^="fab-"],
+  [class*=" fab-"],
+  [class^="fab-"]:before,
+  [class*=" fab-"]:before {
+    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Brands", "FontAwesome";
+    font-style: inherit;
+  }
+
+   i{
+    color: #ff9800;
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 5px;
+  }
+  
+  [class^="fa-"], 
+  [class*=" fa-"], 
+  [class^="fa-"]:before, 
+  [class*=" fa-"]:before, 
+  [class^="fab-"], 
+  [class*=" fab-"], 
+  [class^="fab-"]:before, 
+  [class*=" fab-"]:before {
+      display: inline-block;
+      text-rendering: auto;
+      speak-as: none;
+      font-weight: 400;
+  }
+ 

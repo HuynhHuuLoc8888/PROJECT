@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+.home-css{
+    display: flex;
+    height: 410px;
+    flex-flow: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.home-row{
+    clear: both;
+    float: left;
+    width: 100%;
+}
+*,.home-elm{
+    box-sizing: border-box;
+}
+.home-div1-css{
+    max-width: 1170px;
+    max-height: 420px;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.home_col-sm-12{
+    width: 100%;
+}
+.home-div1-elm{
+    float: left;
+    box-sizing: border-box;
+}
+.home-div1-css .slick-prev.slick-arrow{
+    left: 10px;
+}
+.home-div1-css .slick-arrow{
+    color:#ffffff;
+    font-size: 36px;
+}
+.slick-arrow,
+.slick-dots button{
+    cursor: pointer;
+    outline: none;
+    z-index: 50;
+    background: no-repeat;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+button{
+    max-width: 100%;
+    font-family: "Open Sans","Arial",sans-serif;
+}
+.slick-slider .slick-list,
+.slick-slider .slick-track{
+    transform: translate3d(0,0,0);
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home_col-sm-12 .slick-item{
+    height: 410px;
+}
+.home_col-sm-12 .home-div2-css{
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), transparent url("Content/img/slide1.jpg") center center/cover no-repeat scroll;
+    display: block;
+}
+.slick-item,
+.slick-item a,
+.slick-item a:focus ,
+/* .slick-item:focus{
+    outline: none;
+} */
+[xpath="1"], [css="1"] {
+    outline: rgb(242, 154, 0) dashed 2px !important;
+}
+.slick-slide{
+    float: left;
+    min-height: 1px;
+}
+.home-div3-css{
+    position: absolute;
+    display: flex;
+    max-width: 500px;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    width: auto;
+    bottom: 50px;
+    left: 30px;
+}
+.bz-title{
+    transition: all 500ms ease;
+}
+.fadeInUp{
+    animation-name: fadeInUp;
+}
+.home-div3-css>.type{
+    width: 100%;
+    max-width:500;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+div{
+    display: block;
+}
+.home-div3-css>.sub{
+    color: #f58634;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.home-div1-css .slick-next.slick-arrow{
+    right: 10px;
+}
+.home-div1-css .slick-arrow{
+    color: #ffffff;
+    font-size: 36px;
+}
+.home-div4-css{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.40), 
+        rgba(0, 0, 0, 0.40)), 
+        transparent url("Content/img/slide2.jpg") 
+        center center/cover no-repeat scroll;
+}
+.home-div5-elm{
+    box-sizing: border-box;
+}
+.home-div5-css{
+    position: absolute;
+    display: flex;
+    max-width: 500px;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    width: auto;
+    bottom: 50px;
+    left: 30px;
+}
+.home-div5-css>.type{
+    width: 160%;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.home-div5-css>.sub{
+    color: #f58634;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.home_col-sm-12 .slick-arrow:hover{
+    color: #ff9800;
+}
