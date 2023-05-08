@@ -27,8 +27,7 @@
                     echo '<script>alert("Đăng nhập thành công");</script>';
                     echo '<meta http-equiv="refresh" content="0; url=./index.php?action=HomeAdminController"/>';
                 }else{
-                    echo '<script>alert("Đăng nhập không thành công");</script>';
-                    echo '<meta http-equiv="refresh" content="0; url=./index.php?action=AdminController&act=login"/>';
+                    echo '<script>alert("Tài khoản hoặc mật khẩu không chính xác, vui lòng đăng nhập lại !");</script>';
                 }
             }
             break;
