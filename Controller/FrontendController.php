@@ -93,6 +93,12 @@
         case 'ketoanthue_dichvubaocaothue':
             include "./View/front/danhmuc_ketoanthue/dichvubaocaothue.php";
             break;
+        case 'ketoanthue_dichvubaohiemxahoi':
+            include "./View/front/danhmuc_ketoanthue/dichvubaohiemxahoi.php";
+            break;
+        case 'ketoanthue_dichvuquyettoanthuethunhapcanhan':
+            include "./View/front/danhmuc_ketoanthue/dichvuquyettoanthuethunhapcanhan.php";
+            break;
         // danh mục con ( đầu tư)
         case 'dautu_dieuchinhgiaychungnhan':
             include "./View/front/danhmuc_dautu/dieuchinhgiaychungnhan.php";

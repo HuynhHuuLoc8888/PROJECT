@@ -288,6 +288,13 @@
             $result=$db->getList($sql);
             return $result;
         }
+        //show mục dịch vụ bảo hiểm xã hội( kế toán- thuế)
+        public function showCateRelate_DVBHXH(){
+            $db=new Connect();
+            $sql="select * from category_related where note='dichvubaohiemxahoi'";
+            $result=$db->getList($sql);
+            return $result;
+        }
         //show mục điều chỉnh giấy chứng nhận (đầu tư)
         public function showCateRelate_DCGCN(){
             $db=new Connect();

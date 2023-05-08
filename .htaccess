@@ -39,6 +39,8 @@ RewriteRule ^giay-phep-kinh-doanh-lu-hanh-noi-dia$ index.php?action=FrontendCont
 
 RewriteRule ^tu-van-ke-toan-thue$ index.php?action=FrontendController&act=ketoanthue_tuvanketoanthue
 RewriteRule ^dich-vu-bao-cao-thue$ index.php?action=FrontendController&act=ketoanthue_dichvubaocaothue
+RewriteRule ^dich-vu-bao-hiem-xa-hoi$ index.php?action=FrontendController&act=ketoanthue_dichvubaohiemxahoi
+RewriteRule ^dich-vu-quyet-toan-thue-thu-nhap-ca-nhan$ index.php?action=FrontendController&act=ketoanthue_dichvuquyettoanthuethunhapcanhan
 
 
 
