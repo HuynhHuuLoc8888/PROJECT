@@ -295,6 +295,13 @@
             $result=$db->getList($sql);
             return $result;
         }
+        //show mục bài viết liên quan dịch vụ quyết toán thuế thu nhập cá nhân( kế toán- thuế)
+        public function showCateRelate_DVQTTTNCN(){
+            $db=new Connect();
+            $sql="select * from category_related where note='dichvuquyettoanthuethunhapcanhan'";
+            $result=$db->getList($sql);
+            return $result;
+        }
         //show mục điều chỉnh giấy chứng nhận (đầu tư)
         public function showCateRelate_DCGCN(){
             $db=new Connect();

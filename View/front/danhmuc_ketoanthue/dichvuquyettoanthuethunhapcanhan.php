@@ -132,6 +132,22 @@
                 <h3 class="type-postrelated">Bài viết liên quan</h3>
                 <span class="sub-related"></span>
             </div>
+            <div>
+                <?php
+                $CategoryRelated=new CategoryRelated();
+                $result=$CategoryRelated->showCateRelate_DVQTTTNCN();
+                while($set=$result->fetch()):
+                ?>
+                <div class="<?php echo $set['description']?>">
+                    <div class="title-post-related">
+                        <a class="a-post-related" href="<?php echo $set['url']?>"
+                            title="<?php echo $set['name']?>"><?php echo $set['name']?></a>
+                    </div>
+                </div>
+                <?php
+                endwhile;
+                ?>
+            </div>
         </div>
         <div class="btn-mucluc">
             <i class="icon fa-bars"></i>
