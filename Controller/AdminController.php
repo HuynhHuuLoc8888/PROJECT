@@ -11,9 +11,14 @@
             if(isset($_POST['email']) && isset($_POST['password'])){
                 $email=$_POST['email'];
                 $password=$_POST['password'];
+                $captcha=$_POST['captcha'];
+		        $captcharandom=$_POST['captcha-rand'];
                 $adminController=new Admin();
                 $check=$adminController->loginAdmin($email,$password);
-                if($check!=false){
+                if($captcha!=$captcharandom){
+                    echo '<script>alert("Mã không hợp lệ");</script>';
+                    echo '<meta http-equiv="refresh" content="0; url=./index.php?action=AdminController&act=login"/>';
+                }else if($check!=false){
                    $_SESSION['username']=$check['username'];
                    $_SESSION['id']=$check['id'];
                    $_SESSION['email']=$check['email'];
@@ -22,7 +27,7 @@
                     echo '<script>alert("Đăng nhập thành công");</script>';
                     echo '<meta http-equiv="refresh" content="0; url=./index.php?action=HomeAdminController"/>';
                 }else{
-                    echo '<script>alert("Đăng nhập thành công");</script>';
+                    echo '<script>alert("Đăng nhập không thành công");</script>';
                     echo '<meta http-equiv="refresh" content="0; url=./index.php?action=AdminController&act=login"/>';
                 }
             }
