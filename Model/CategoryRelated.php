@@ -267,6 +267,20 @@
             $result=$db->getList($sql);
             return $result;
         }
+        //show bài viết liên quan giay phep mạng xã hội (giấy phép)  
+        public function showCateRelate_GPMXH(){
+            $db=new Connect();
+            $sql="select * from category_related where note='giayphepmangxahoi'";
+            $result=$db->getList($sql);
+            return $result;
+        }
+        //show danh mục tư vấn giấy phep (giấy phép)  
+        public function showCateRelate_TVGP(){
+            $db=new Connect();
+            $sql="select * from category_related where note='tuvangiayphep'";
+            $result=$db->getList($sql);
+            return $result;
+        }
         //show bài viết liên quan tư vấn kế toán thuế ( kế toán- thuế)
         public function showCateRelate_TVKTT(){
             $db=new Connect();

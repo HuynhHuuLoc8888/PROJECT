@@ -35,6 +35,7 @@ RewriteRule ^quyen-tac-gia-quyen-lien-quan$ index.php?action=FrontendController&
 RewriteRule ^tu-van-giay-phep-lao-dong$ index.php?action=FrontendController&act=giayphep_giaypheplaodong
 RewriteRule ^giay-phep-kinh-doanh-lu-hanh-quoc-te$ index.php?action=FrontendController&act=giayphep_giayphepkinhdoanhluhanhquocte
 RewriteRule ^giay-phep-kinh-doanh-lu-hanh-noi-dia$ index.php?action=FrontendController&act=giayphep_giayphepkinhdoanhluhanhnoidia
+RewriteRule ^giay-phep-mang-xa-hoi$ index.php?action=FrontendController&act=giayphep_giayphepmangxahoi
 
 
 RewriteRule ^tu-van-ke-toan-thue$ index.php?action=FrontendController&act=ketoanthue_tuvanketoanthue

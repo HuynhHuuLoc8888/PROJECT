@@ -142,7 +142,7 @@
                     địa</li>
                 <li>Nhận và giao lại cho khách hàng giấy phép kinh doanh lữ hành nội địa.</li>
             </ul>
-            <div class="div-tag" style="margin-top:20px 0;">
+            <div class="div-tag" style="margin-top:20px;">
                 <span class="title-tag">Tags:</span>
                 <a class="a-tag" href="#" rel="tag">Giấy phép</a>
                 <a class="a-tag" href="#" rel="tag">quyền liên quan</a>
